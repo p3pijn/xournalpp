@@ -1,5 +1,5 @@
 #Download base image latest debian
-FROM debian:latest
+FROM debian:12.5
 
 # Update Software repository
 RUN apt-get update
